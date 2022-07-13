@@ -1,0 +1,66 @@
+.elem {
+    display: inline-block;
+    background-color: yellowgreen;
+    margin: 2px;
+    width: 100px;
+    height: 100px;
+    /* background-image: url(https://picsum.photos/240); */
+    background-size: cover;
+    border: 3px solid black;
+    font-size: 70px;
+    text-align: center;
+}
+.grid {
+    display: grid;
+    width: 330px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.pic {
+    display: flex;
+    position: absolute;
+    left: 370px;
+}
+.pl_1 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-image: url(../img/1.jpg);
+    background-size: cover;
+    border: 7px solid orange;
+}
+.pl_2 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-image: url(../img/2.jpg);
+    background-size: cover;
+    border: 7px solid orange;
+    margin-left: 20px;
+}
+.hod_1 {
+    position: absolute;
+    top: 180px;
+    left: 20px;
+    font-size: 30px;
+    color: orange;
+}
+.hod_2 {
+    position: absolute;
+    left: 220px;
+    top: 180px;
+    font-size: 30px;
+    color: orange;
+}
+.text {
+    position: absolute;
+    left: 50px;
+    top: 350px;
+    font-size: 30px;
+    color: rgb(130, 85, 2);
+}
+button {
+    margin-top: 70px;
+    margin-left: 100px;
+    padding: 5px;
+    background-color: orange;
+}
